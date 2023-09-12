@@ -1,0 +1,64 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.chocolate-selection, .custom-pack {
+    margin: 20px;
+}
+
+.chocolate-options {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chocolate-item {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+label {
+    display: block;
+}
+
+#selected-chocolates {
+    list-style-type: none;
+    padding: 0;
+}
+
+#total-price {
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}

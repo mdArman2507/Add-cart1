@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Custom Chocolate Pack</title>
+</head>
+<body>
+    <header>
+        <h1>Custom Chocolate Pack</h1>
+    </header>
+
+    <section class="chocolate-selection">
+        <h2>Select your chocolates (Maximum 8)</h2>
+        <div class="chocolate-options">
+            <!-- Chocolate options go here -->
+            <div class="chocolate-item">
+                <input type="checkbox" id="chocolate1" name="chocolate1" value="Chocolate 1">
+                <label for="chocolate1">Chocolate 1 - $2.50</label>
+                <input type="number" id="quantity1" name="quantity1" min="0" max="8" placeholder="Qty">
+            </div>
+            <!-- Add more chocolate options here -->
+        </div>
+    </section>
+
+    <section class="custom-pack">
+        <h2>Your Custom Pack</h2>
+        <ul id="selected-chocolates">
+            <!-- Selected chocolates go here -->
+        </ul>
+        <p>Total Price: $<span id="total-price">0.00</span></p>
+    </section>
+
+    <footer>
+        <button id="add-to-cart">Add to Cart</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
